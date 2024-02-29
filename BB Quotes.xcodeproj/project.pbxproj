@@ -11,6 +11,14 @@
 		E00839412B8E18FD000A427A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00839402B8E18FD000A427A /* ContentView.swift */; };
 		E00839432B8E18FD000A427A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E00839422B8E18FD000A427A /* Assets.xcassets */; };
 		E00839462B8E18FD000A427A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E00839452B8E18FD000A427A /* Preview Assets.xcassets */; };
+		E008394D2B8E195F000A427A /* samplecharacter.json in Resources */ = {isa = PBXBuildFile; fileRef = E008394C2B8E195F000A427A /* samplecharacter.json */; };
+		E008394F2B8E20A4000A427A /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = E008394E2B8E20A4000A427A /* Quote.swift */; };
+		E07D0D3A2B8F4AAB00B2D219 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07D0D392B8F4AAB00B2D219 /* ViewModel.swift */; };
+		E07D0D3C2B8F57F200B2D219 /* QuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07D0D3B2B8F57F200B2D219 /* QuoteView.swift */; };
+		E09F81E52B8E6BF0005755E8 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F81E42B8E6BF0005755E8 /* Character.swift */; };
+		E09F81E72B8E7216005755E8 /* FetchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F81E62B8E7216005755E8 /* FetchController.swift */; };
+		E09F81E92B8E7926005755E8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F81E82B8E7926005755E8 /* Constants.swift */; };
+		E0F9FC6A2B8FD16F006944F3 /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F9FC692B8FD16F006944F3 /* CharacterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,14 @@
 		E00839402B8E18FD000A427A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E00839422B8E18FD000A427A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E00839452B8E18FD000A427A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E008394C2B8E195F000A427A /* samplecharacter.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = samplecharacter.json; sourceTree = "<group>"; };
+		E008394E2B8E20A4000A427A /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		E07D0D392B8F4AAB00B2D219 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		E07D0D3B2B8F57F200B2D219 /* QuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteView.swift; sourceTree = "<group>"; };
+		E09F81E42B8E6BF0005755E8 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		E09F81E62B8E7216005755E8 /* FetchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchController.swift; sourceTree = "<group>"; };
+		E09F81E82B8E7926005755E8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E0F9FC692B8FD16F006944F3 /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +69,14 @@
 			children = (
 				E008393E2B8E18FD000A427A /* BB_QuotesApp.swift */,
 				E00839402B8E18FD000A427A /* ContentView.swift */,
+				E008394E2B8E20A4000A427A /* Quote.swift */,
+				E07D0D392B8F4AAB00B2D219 /* ViewModel.swift */,
+				E0F9FC692B8FD16F006944F3 /* CharacterView.swift */,
+				E09F81E42B8E6BF0005755E8 /* Character.swift */,
+				E07D0D3B2B8F57F200B2D219 /* QuoteView.swift */,
+				E09F81E82B8E7926005755E8 /* Constants.swift */,
+				E09F81E62B8E7216005755E8 /* FetchController.swift */,
+				E008394C2B8E195F000A427A /* samplecharacter.json */,
 				E00839422B8E18FD000A427A /* Assets.xcassets */,
 				E00839442B8E18FD000A427A /* Preview Content */,
 			);
@@ -126,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E00839462B8E18FD000A427A /* Preview Assets.xcassets in Resources */,
+				E008394D2B8E195F000A427A /* samplecharacter.json in Resources */,
 				E00839432B8E18FD000A427A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +163,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				E00839412B8E18FD000A427A /* ContentView.swift in Sources */,
+				E008394F2B8E20A4000A427A /* Quote.swift in Sources */,
 				E008393F2B8E18FD000A427A /* BB_QuotesApp.swift in Sources */,
+				E07D0D3C2B8F57F200B2D219 /* QuoteView.swift in Sources */,
+				E09F81E72B8E7216005755E8 /* FetchController.swift in Sources */,
+				E09F81E52B8E6BF0005755E8 /* Character.swift in Sources */,
+				E0F9FC6A2B8FD16F006944F3 /* CharacterView.swift in Sources */,
+				E09F81E92B8E7926005755E8 /* Constants.swift in Sources */,
+				E07D0D3A2B8F4AAB00B2D219 /* ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +306,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BB Quotes/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Say My Name";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -302,6 +335,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BB Quotes/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Say My Name";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
